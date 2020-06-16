@@ -1,0 +1,53 @@
+@font-face {
+    font-family: "IRANSansWeb";
+    src: url("../fonts/IRANSansWeb.eot"); /* IE */
+    src: url("../fonts/IRANSansWeb.eot?#iefix") format("embedded-opentype"), /* IE */
+    url("../fonts/IRANSansWeb.woff") format("woff"), /* Modern Browsers */
+    url("../fonts/IRANSansWeb.ttf") format("truetype"); /* Safari, Android, iOS */
+    font-weight: normal;
+}
+body{
+    font-family:IRANSansWeb !important; ;
+}
+
+.theme__column_inner {
+    text-align: center;
+    border: 1px solid #b5abab;
+    border-radius: 6px;
+    margin: 24px 2px;
+    padding: 10px 0;
+}
+
+
+.theme__column_top_links {
+    border: 1px solid #cecece;
+    border-radius: 10px;
+    margin: 0 24px;
+    transition: all 1s;
+
+}
+
+.theme__column_top_links a {
+    text-decoration: none;
+    color: #000;
+    border-left: 1px solid #948e8e;
+    text-align: center;
+    width: 32%;
+    display: inline-block;
+}
+
+.theme__column_top_links a:first-child {
+    border: navajowhite;
+}
+
+.theme__column_top_links a:hover {
+    background: #843fc3;
+    color: #fff;
+}
+.theme__column_img {
+    margin-top: 6px;
+}
+
+img.img-responsive {
+    max-width: 100%;
+}
